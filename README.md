@@ -32,7 +32,7 @@ An imbalanced classification problem occurs when the classes in the dataset have
 Class weight for class i is calculated using the following formula
 <b><center>
 class i weight = total samples / (2 * no. of class i labels)
-    </b></center>
+</center> </b>
     
 ### CNN Model Summary
 <pre>
