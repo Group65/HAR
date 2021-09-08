@@ -1,7 +1,7 @@
 # Human  Action  Recognition
 Human Action Recognition using Convolutional Neural Network(CNN) in jupyter notebook. 
 
-### Structure of Data
+### File Structure
 <pre>
 / 
     train.csv
