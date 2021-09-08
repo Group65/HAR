@@ -30,9 +30,10 @@ More specifically, each joint is represented with features in x, y, z axes in 3D
 An imbalanced classification problem occurs when the classes in the dataset have a highly disproportionate number of samples. Class weight technique is used to handle the issue. In this technique we assign a larger penalty to wrong predictions on the minority class.</br></br>
 
 Class weight for class i is calculated using the following formula
-<b><center>
+<b>
+<p align="center">
 class i weight = total samples / (2 * no. of class i labels)
-</center> </b>
+</p> </b>
     
 ### CNN Model Summary
 <pre>
