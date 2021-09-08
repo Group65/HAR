@@ -1,22 +1,24 @@
 # Human  Action  Recognition
-Human Action Recognition using Convolutional Neural Network(CNN) in jupyter notebook. 
+Human Action Recognition using Convolutional Neural Network(CNN) in Jupyter Notebook. 
 
 ### File Structure
 <pre>
 / 
+    HAR.ipynb
     train.csv
     test.csv 
 </pre>
     
 ### Libraries Required
-pandas, numpy, matplotlib, sklearn, tensorflow
+pandas, numpy, matplotlib, sklearn , scipy, tensorflow
 
-### Installation Commands:-
+### Installation Commands
 <pre>
 pip install pandas
 pip install matplotlib
 pip install scikit-learn
 pip install tensorflow
+pip install scipy
 </pre>
 
 ### Dataset
@@ -25,9 +27,14 @@ Each sequence contains 16 frames.  Each frame contains the motion features of 20
 More specifically, each joint is represented with features in x, y, z axes in 3D space.  Thus each frame contains 20×3 = 60 features.
 
 ### Class Imbalance Problem
-An imbalanced classification problem occurs when the classes in the dataset have a highly unequal number of samples. Class weight technique is used to handle the issue. In this technique we assign a larger penalty to wrong predictions on the minority class.
+An imbalanced classification problem occurs when the classes in the dataset have a highly disproportionate number of samples. Class weight technique is used to handle the issue. In this technique we assign a larger penalty to wrong predictions on the minority class.</br></br>
 
-### Model Summary
+Class weight for class i is calculated using the following formula
+<b><center>
+class i weight = total samples / (2 * no. of class i labels)
+    </b></center>
+    
+### CNN Model Summary
 <pre>
 
 Model: "sequential_8"
