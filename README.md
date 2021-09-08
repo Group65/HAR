@@ -27,9 +27,9 @@ More specifically, each joint is represented with features in x, y, z axes in 3D
 ### Class Imbalance Problem
 An imbalanced classification problem occurs when the classes in the dataset have a highly unequal number of samples. Class weight technique is used to handle the issue. In this technique we assign a larger penalty to wrong predictions on the minority class.
 
-### Performance
+### Model Summary
 <pre>
-Model Summary
+
 Model: "sequential_8"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
