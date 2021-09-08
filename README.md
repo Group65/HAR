@@ -1,6 +1,8 @@
 # Human  Action  Recognition
 Human Action Recognition using Convolutional Neural Network(CNN) in Jupyter Notebook. 
 
+Github: https://github.com/Group65/project1.git
+
 ### File Structure
 <pre>
 / 
